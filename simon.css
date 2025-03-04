@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-image: url(bgImageGame.jpg);
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* height: 100vh; */
+    /* margin: 0; */
+}
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+.red{
+    background-color: #d95980;
+}
+.green{
+    background-color: #1e8b46;
+}
+.blue{
+    background-color: #8297d6;
+}
+
+.flash{
+    background-color: white;
+}
+.userflash{
+    background-color: rgb(211, 12, 12);
+}
